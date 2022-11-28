@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   box-sizing: border-box;
 }
 .logoImg {
@@ -30,7 +30,8 @@
 }
 .page1,
 .page2,
-.page3 {
+.page3,
+.page4 {
   width: 100vw;
   height: 100vh;
 }
@@ -102,6 +103,8 @@ div > a {
   width: 50%;
   height: 100vh;
   float: left;
+  text-align: center;
+  vertical-align: center;
 }
 .team-img {
   width: 100%;
@@ -130,11 +133,24 @@ div > a {
 .cultural-event-logo {
   width: 100%;
 }
-.technical-center {
+.technical-center,
+.cultural-center {
   position: relative;
   width: fit-content;
   top: 50%;
   left: 50%;
-  z-index: 2;
+  /* z-index: 2; */
   /* transform: translate(-50%, -50%); */
+}
+
+.contact-us {
+  font-size: 64px;
+  text-align: left;
+}
+.img1,
+.img2,
+.img3 {
+  width: 33%;
+  height: 50vh;
+  display: inline-block;
 }
