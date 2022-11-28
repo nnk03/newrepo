@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  box-sizing: border-box;
+}
+.logoImg {
+  height: 60px;
+  width: 60px;
+  display: inline;
+}
+.nav-bar > div {
+  margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  display: inline;
+}
+.nav-bar > div > a {
+  text-decoration: none;
+}
+/* a:hover {
+  text-decoration: none;
+} */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+}
+.page1,
+.page2,
+.page3 {
+  width: 100vw;
+  height: 100vh;
+}
+.blank {
+  width: 20%;
+}
+
+.petrichor22 {
+  /* margin-top: 10%; */
+  /* margin-right: auto; */
+  font-size: 100px;
+  /* padding-left: 100px; */
+  position: relative;
+  left: 50%;
+  top: 20%;
+  width: 40%;
+  margin: 0;
+  text-align: center;
+
+  /* right: 20%; */
+}
+
+.eee {
+  font-size: 32px;
+  position: relative;
+  left: 50%;
+  top: 25%;
+  /* padding-right: auto; */
+  width: 40%;
+  margin: 0;
+  text-align: center;
+}
+
+.events,
+.workshop {
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border: 3px;
+  border-color: red;
+  width: 205px;
+  height: 30px;
+  /* margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin */
+  margin: 0 10px 0 5px;
+  position: relative;
+  top: 35%;
+  left: 62%;
+}
+div > a {
+  text-decoration: none;
+}
+
+.team-logo {
+  float: right;
+  display: inline;
+  width: 50vw;
+  /* position: relative; */
+  left: 50%;
+  height: 100vh;
+}
+.aside-from-team {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.team-img {
+  width: 100%;
+  height: 100%;
+}
+
+#events-heading {
+  font-size: 64px;
+  text-align: left;
+}
+.technical,
+.cultural {
+  width: 50vw;
+  height: 100vh;
+  display: inline;
+  /* position: relative; */
+  /* text-align: center; */
+}
+.technical {
+  float: left;
+}
+.cultural {
+  float: right;
+}
+.technical-event-logo,
+.cultural-event-logo {
+  width: 100%;
+}
+.technical-center {
+  position: relative;
+  width: fit-content;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  /* transform: translate(-50%, -50%); */
+}
